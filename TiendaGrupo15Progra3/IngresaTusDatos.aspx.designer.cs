@@ -24,6 +24,15 @@ namespace TiendaGrupo15Progra3
         protected global::System.Web.UI.WebControls.Label DNILabel;
 
         /// <summary>
+        /// DNInumero control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox DNInumero;
+
+        /// <summary>
         /// nombreLabel control.
         /// </summary>
         /// <remarks>
@@ -31,6 +40,15 @@ namespace TiendaGrupo15Progra3
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label nombreLabel;
+
+        /// <summary>
+        /// nombreText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox nombreText;
 
         /// <summary>
         /// apellidoLabel control.
@@ -42,6 +60,15 @@ namespace TiendaGrupo15Progra3
         protected global::System.Web.UI.WebControls.Label apellidoLabel;
 
         /// <summary>
+        /// apellidoText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox apellidoText;
+
+        /// <summary>
         /// EmailLabel control.
         /// </summary>
         /// <remarks>
@@ -49,6 +76,15 @@ namespace TiendaGrupo15Progra3
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label EmailLabel;
+
+        /// <summary>
+        /// EmailInput control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox EmailInput;
 
         /// <summary>
         /// direccionLabel control.
@@ -60,6 +96,15 @@ namespace TiendaGrupo15Progra3
         protected global::System.Web.UI.WebControls.Label direccionLabel;
 
         /// <summary>
+        /// direccionText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox direccionText;
+
+        /// <summary>
         /// ciudadLabel control.
         /// </summary>
         /// <remarks>
@@ -69,6 +114,15 @@ namespace TiendaGrupo15Progra3
         protected global::System.Web.UI.WebControls.Label ciudadLabel;
 
         /// <summary>
+        /// ciudadText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ciudadText;
+
+        /// <summary>
         /// codigoPostalLabel control.
         /// </summary>
         /// <remarks>
@@ -76,6 +130,15 @@ namespace TiendaGrupo15Progra3
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label codigoPostalLabel;
+
+        /// <summary>
+        /// codigoPostalText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox codigoPostalText;
 
         /// <summary>
         /// terminosCheckBox control.

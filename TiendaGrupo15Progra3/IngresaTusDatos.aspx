@@ -6,30 +6,30 @@
     <h2>Ingresa tus datos</h2>
     <form id="FormularioDatos">
     <asp:Label ID="DNILabel" runat="server" Text="Label">DNI:</asp:Label>
-    <input id="DNIText" type="number" placeholder="12345678" />
+    <asp:TextBox ID="DNInumero" textmode="Number" placeholder="12345678" runat="server"></asp:TextBox>
 
-    <asp:Label ID="nombreLabel" runat="server" Text="Label">Nombre:</asp:Label>
-    <input id="nombreText" type="text" placeholder="Nombre"/>
+    <asp:Label ID="nombreLabel" runat="server" Text="Label">Nombre:</asp:Label>    
+    <asp:TextBox ID="nombreText" runat="server" placeholder="Nombre"></asp:TextBox>
 
     <asp:Label ID="apellidoLabel" runat="server" Text="Label">Apellido:</asp:Label>
-    <input id="apellidoText" type="text" placeholder="Apellido"/>
+    <asp:TextBox ID="apellidoText" runat="server" placeholder="Apellido"></asp:TextBox>
 
     <asp:Label ID="EmailLabel" runat="server" Text="Label">Email:</asp:Label>
-    <input id="EmailInput" type="email" placeholder="Email"/>
+    <asp:TextBox ID="EmailInput" runat="server" placeholder="Email" textmode="Email"></asp:TextBox>
 
     <asp:Label ID="direccionLabel" runat="server" Text="Label">Direccion:</asp:Label>
-    <input id="direccionText" type="text" placeholder="Direccion"/>
+    <asp:TextBox ID="direccionText" runat="server" placeholder="Direccion"></asp:TextBox>
 
     <asp:Label ID="ciudadLabel" runat="server" Text="Label">Ciudad:</asp:Label>
-    <input id="ciudadText" type="text" placeholder="Ciudad"/>
+    <asp:TextBox ID="ciudadText" placeholder="Ciudad" runat="server"></asp:TextBox>
 
     <asp:Label ID="codigoPostalLabel" runat="server" Text="Label">Codigo Postal:</asp:Label>
-    <input id="codigoPostalText" type="text" placeholder="Codigo Postal"/>
+    <asp:TextBox ID="codigoPostalText" placeholder="Codigo Postal" runat="server"></asp:TextBox>
 
     <asp:CheckBox ID="terminosCheckBox" runat="server" />
     <asp:Label ID="terminosLabel" runat="server" Text="Label">Acepto los terminos y condiciones</asp:Label>
 
-    <asp:Button ID="ParticiparButton" runat="server" Text="Participar" />
+    <asp:Button type="submit" ID="ParticiparButton" runat="server" Text="Participar" OnClick="ParticiparButton_Click" />
 
     </form>
 </asp:Content>
