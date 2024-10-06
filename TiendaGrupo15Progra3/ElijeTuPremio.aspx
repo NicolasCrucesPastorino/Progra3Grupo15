@@ -8,6 +8,7 @@
     <% foreach (var premio in premios)
         
         {%>
+                
             <li>
                 <%= premio.Nombre %>
                 <div>
@@ -19,4 +20,5 @@
                 </div>
             </li>
         <% } %>
+           
 </asp:Content>

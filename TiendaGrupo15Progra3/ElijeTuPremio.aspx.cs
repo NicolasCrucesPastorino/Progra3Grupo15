@@ -20,7 +20,8 @@ namespace TiendaGrupo15Progra3
         }
         protected void Page_Load(object sender, EventArgs e)
         {
-            premios = conexionSql.GetPremios();
+          
+                premios = conexionSql.GetPremios();
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Services.Description;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using TiendaGrupo15Progra3.conexion;
 
 namespace TiendaGrupo15Progra3
 {
@@ -16,19 +17,24 @@ namespace TiendaGrupo15Progra3
             
         }
 
+        private ConexionSql conexionSql = new ConexionSql();
+
         public void ParticiparButton_Click(object sender, EventArgs e)
         {
-            int numeroDNI = Int32.Parse(DNInumero.Text);
+
+            conexionSql = new ConexionSql();
+
+            string numeroDNI = DNInumero.Text;
             string nombre = nombreText.Text;
             string apellido = apellidoText.Text;
             string email = EmailInput.Text;
             string direccion = direccionText.Text;
             string ciudad = ciudadText.Text;
-            string codigoPostal = codigoPostalText.Text;
-
-            
+            int codigoPostal = Int32.Parse(codigoPostalText.Text);
 
 
+            conexionSql.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);
+            ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('El usuario se ha cargado con exito');", true);
         }
 
 

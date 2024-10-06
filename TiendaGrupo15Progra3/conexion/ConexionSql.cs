@@ -5,13 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Configuration;
+using System.Xml.Linq;
 using TiendaGrupo15Progra3.Models;
 
 namespace TiendaGrupo15Progra3.conexion
 {
     public class ConexionSql
     {
-        private string connectionString = "Server=localhost;Database=PROMOS_DB;User Id=sa;Password=Password123;";
+        private string connectionString = "server=.\\SQLEXPRESS; database =PROMOS_DB; integrated security = true";
 
         public bool ExisteCodigo(string CodigoVoucher)
         {
@@ -85,6 +86,29 @@ namespace TiendaGrupo15Progra3.conexion
                 }
             }
             return premios;
+        }
+
+        public void insertarCliente(string Documento, string Nombre, string Apellido, string Email, string Direccion, string Ciudad, int CP)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString)) {
+                connection.Open();
+                string query = "INSERT INTO Clientes (Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP)  VALUES  (@Documento, @Nombre, @Apellido, @Email, @Direccion, @Ciudad, @CP)";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Documento", Documento);
+                    command.Parameters.AddWithValue("@Nombre", Nombre);
+                    command.Parameters.AddWithValue("@Apellido", Apellido);
+                    command.Parameters.AddWithValue("@Email", Email);
+                    command.Parameters.AddWithValue("@Direccion", Direccion);
+                    command.Parameters.AddWithValue("@Ciudad", Ciudad);
+                    command.Parameters.AddWithValue("@CP", CP);
+
+                    command.ExecuteNonQuery();
+                }
+            }
+
+
         }
     }
 }
