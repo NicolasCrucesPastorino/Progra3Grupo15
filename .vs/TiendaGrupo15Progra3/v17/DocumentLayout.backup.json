@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lezzz\\Desarrollo\\c#\\Progra3Grupo15\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|c:\\users\\lezzz\\desarrollo\\c#\\progra3grupo15\\tiendagrupo15progra3\\elijetupremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\elijetupremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|c:\\users\\lezzz\\desarrollo\\c#\\progra3grupo15\\tiendagrupo15progra3\\elijetupremio.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\elijetupremio.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|c:\\users\\lezzz\\desarrollo\\c#\\progra3grupo15\\tiendagrupo15progra3\\elijetupremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\elijetupremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|c:\\users\\lezzz\\desarrollo\\c#\\progra3grupo15\\tiendagrupo15progra3\\elijetupremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\elijetupremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|c:\\users\\lezzz\\desarrollo\\c#\\progra3grupo15\\tiendagrupo15progra3\\conexion\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,11 +31,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ElijeTuPremio.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\lezzz\\Desarrollo\\c#\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx.designer.cs",
+              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\lezzz\\Desarrollo\\c#\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx.designer.cs",
+              "RelativeToolTip": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:54:07.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ElijeTuPremio.aspx",
               "DocumentMoniker": "C:\\Users\\lezzz\\Desarrollo\\c#\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
               "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
-              "ToolTip": "C:\\Users\\lezzz\\Desarrollo\\c#\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
-              "RelativeToolTip": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
+              "ToolTip": "C:\\Users\\lezzz\\Desarrollo\\c#\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx*",
+              "RelativeToolTip": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx*",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-10-06T19:18:41.084Z",
@@ -43,8 +60,8 @@
               "Title": "ElijeTuPremio.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lezzz\\Desarrollo\\c#\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx.cs",
               "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx.cs",
-              "ToolTip": "C:\\Users\\lezzz\\Desarrollo\\c#\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx.cs",
-              "RelativeToolTip": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx.cs",
+              "ToolTip": "C:\\Users\\lezzz\\Desarrollo\\c#\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx.cs*",
+              "RelativeToolTip": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T19:18:45.693Z",
@@ -52,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ConexionSql.cs",
               "DocumentMoniker": "C:\\Users\\lezzz\\Desarrollo\\c#\\Progra3Grupo15\\TiendaGrupo15Progra3\\conexion\\ConexionSql.cs",
               "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\conexion\\ConexionSql.cs",

@@ -5,11 +5,9 @@
 
 
     <asp:Label ID="Label1" runat="server" Text="Label">Ingresa El valor de tu Voucher</asp:Label>
-    <asp:TextBox ID="TextBox1" runat="server" placeholder="XXXXXXXXXXXX"></asp:TextBox>
+    <asp:TextBox ID="CodigoVoucherText" runat="server" placeholder="XXXXXXXXXXXX"></asp:TextBox>
 
-    <asp:Button ID="Button1" runat="server" Text="Enviar" />
-
-
+	<asp:Button ID="EnviarCodigoVoucher" runat="server" Text="Enviar" OnClick="EnviarCodigoVoucher_Click" />
 
 </asp:Content>
 
