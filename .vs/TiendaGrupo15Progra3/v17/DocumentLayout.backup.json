@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\elijetupremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\elijetupremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|c:\\users\\windows\\desktop\\ultima version final\\progra3grupo15\\tiendagrupo15progra3\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\ingresatusdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\ingresatusdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|c:\\users\\windows\\desktop\\ultima version final\\progra3grupo15\\tiendagrupo15progra3\\ingresatusdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\ingresatusdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\elijetupremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\elijetupremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -31,16 +19,28 @@
       "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\conexion\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\conexion\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\ingresatusdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\ingresatusdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\ingresatusdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\ingresatusdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\ingresatusdatos.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\ingresatusdatos.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\elijetupremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\elijetupremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\elijetupremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\elijetupremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\conexion\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\conexion\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\tiendagrupo15progra3\\elijetupremio.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,19 +82,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WebForm1.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\WebForm1.aspx.cs",
-              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\WebForm1.aspx.cs",
-              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\WebForm1.aspx.cs",
-              "RelativeToolTip": "TiendaGrupo15Progra3\\WebForm1.aspx.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCQAAACGAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IngresaTusDatos.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.designer.cs",
+              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.designer.cs",
+              "RelativeToolTip": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T22:10:02.28Z"
+              "WhenOpened": "2024-10-06T22:09:49.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "IngresaTusDatos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
+              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
+              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
+              "RelativeToolTip": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T22:09:44.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IngresaTusDatos.aspx",
+              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx",
+              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx",
+              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx",
+              "RelativeToolTip": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-06T22:09:42.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\Web.config",
+              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\Web.config",
+              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\Web.config",
+              "RelativeToolTip": "TiendaGrupo15Progra3\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-06T23:04:10.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "WebForm1.aspx",
               "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\WebForm1.aspx",
               "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\WebForm1.aspx",
@@ -106,31 +144,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IngresaTusDatos.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.designer.cs",
-              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.designer.cs",
-              "RelativeToolTip": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.designer.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T22:09:49.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IngresaTusDatos.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
-              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
-              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
-              "RelativeToolTip": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T22:09:44.892Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\WebForm1.aspx.cs",
+              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\WebForm1.aspx.cs",
+              "RelativeToolTip": "TiendaGrupo15Progra3\\WebForm1.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T22:10:02.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ElijeTuPremio.aspx",
+              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
+              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
+              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
+              "RelativeToolTip": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-06T19:18:41.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Site1.Master",
               "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\Site1.Master",
               "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\Site1.Master",
@@ -139,19 +177,6 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-10-06T21:45:16.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ElijeTuPremio.aspx",
-              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
-              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
-              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
-              "RelativeToolTip": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-06T19:18:41.084Z",
               "EditorCaption": ""
             },
             {
@@ -180,31 +205,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\Web.config",
-              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\Web.config",
-              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\Web.config",
-              "RelativeToolTip": "TiendaGrupo15Progra3\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-06T23:04:10.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IngresaTusDatos.aspx",
-              "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx",
-              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx",
-              "ToolTip": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx",
-              "RelativeToolTip": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-06T22:09:42.42Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 15,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\Global.asax.cs",
@@ -225,8 +225,7 @@
               "RelativeToolTip": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T22:09:31.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T22:09:31.964Z"
             },
             {
               "$type": "Document",
@@ -254,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ElijeTuPremio.aspx.cs",
               "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\ElijeTuPremio.aspx.cs",
               "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\ElijeTuPremio.aspx.cs",
@@ -266,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ConexionSql.cs",
               "DocumentMoniker": "C:\\Users\\windows\\Desktop\\Ultima Version Final\\Progra3Grupo15\\TiendaGrupo15Progra3\\conexion\\ConexionSql.cs",
               "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\conexion\\ConexionSql.cs",

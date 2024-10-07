@@ -1,35 +1,68 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="IngresaTusDatos.aspx.cs" Inherits="TiendaGrupo15Progra3.IngresaTusDatos" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="container">
+        <h2 class="text-center mb-4">Ingresa tus datos</h2>
+        
+        <form id="FormularioDatos" class="row g-3">
+            <!-- DNI -->
+            <div class="col-md-6">
+                <label for="DNInumero" class="form-label">DNI:</label>
+                <asp:TextBox ID="DNInumero" textmode="Number" CssClass="form-control" placeholder="12345678" runat="server"></asp:TextBox>
+            </div>
+            
+            <!-- Nombre -->
+            <div class="col-md-6">
+                <label for="nombreText" class="form-label">Nombre:</label>
+                <asp:TextBox ID="nombreText" CssClass="form-control" placeholder="Nombre" runat="server"></asp:TextBox>
+            </div>
 
-    <h2>Ingresa tus datos</h2>
-    <form id="FormularioDatos">
-    <asp:Label ID="DNILabel" runat="server" Text="Label">DNI:</asp:Label>
-    <asp:TextBox ID="DNInumero" textmode="Number" placeholder="12345678" runat="server"></asp:TextBox>
+            <!-- Apellido -->
+            <div class="col-md-6">
+                <label for="apellidoText" class="form-label">Apellido:</label>
+                <asp:TextBox ID="apellidoText" CssClass="form-control" placeholder="Apellido" runat="server"></asp:TextBox>
+            </div>
 
-    <asp:Label ID="nombreLabel" runat="server" Text="Label">Nombre:</asp:Label>    
-    <asp:TextBox ID="nombreText" runat="server" placeholder="Nombre"></asp:TextBox>
+            <!-- Email -->
+            <div class="col-md-6">
+                <label for="EmailInput" class="form-label">Email:</label>
+                <asp:TextBox ID="EmailInput" CssClass="form-control" placeholder="Email" textmode="Email" runat="server"></asp:TextBox>
+            </div>
 
-    <asp:Label ID="apellidoLabel" runat="server" Text="Label">Apellido:</asp:Label>
-    <asp:TextBox ID="apellidoText" runat="server" placeholder="Apellido"></asp:TextBox>
+            <!-- Dirección -->
+            <div class="col-md-6">
+                <label for="direccionText" class="form-label">Dirección:</label>
+                <asp:TextBox ID="direccionText" CssClass="form-control" placeholder="Dirección" runat="server"></asp:TextBox>
+            </div>
 
-    <asp:Label ID="EmailLabel" runat="server" Text="Label">Email:</asp:Label>
-    <asp:TextBox ID="EmailInput" runat="server" placeholder="Email" textmode="Email"></asp:TextBox>
+            <!-- Ciudad -->
+            <div class="col-md-6">
+                <label for="ciudadText" class="form-label">Ciudad:</label>
+                <asp:TextBox ID="ciudadText" CssClass="form-control" placeholder="Ciudad" runat="server"></asp:TextBox>
+            </div>
 
-    <asp:Label ID="direccionLabel" runat="server" Text="Label">Direccion:</asp:Label>
-    <asp:TextBox ID="direccionText" runat="server" placeholder="Direccion"></asp:TextBox>
+            <!-- Código Postal -->
+            <div class="col-md-6">
+                <label for="codigoPostalText" class="form-label">Código Postal:</label>
+                <asp:TextBox ID="codigoPostalText" CssClass="form-control" placeholder="Código Postal" runat="server"></asp:TextBox>
+            </div>
 
-    <asp:Label ID="ciudadLabel" runat="server" Text="Label">Ciudad:</asp:Label>
-    <asp:TextBox ID="ciudadText" placeholder="Ciudad" runat="server"></asp:TextBox>
+            <!-- Aceptar términos -->
+            <div class="col-12">
+                <div class="form-check">
+                    <asp:CheckBox ID="terminosCheckBox" CssClass="form-check-input" runat="server" />
+                    <label for="terminosCheckBox" class="form-check-label">Acepto los términos y condiciones</label>
+                </div>
+            </div>
 
-    <asp:Label ID="codigoPostalLabel" runat="server" Text="Label">Codigo Postal:</asp:Label>
-    <asp:TextBox ID="codigoPostalText" placeholder="Codigo Postal" runat="server"></asp:TextBox>
-
-    <asp:CheckBox ID="terminosCheckBox" runat="server" />
-    <asp:Label ID="terminosLabel" runat="server" Text="Label">Acepto los terminos y condiciones</asp:Label>
-
-    <asp:Button type="submit" ID="ParticiparButton" runat="server" Text="Participar" OnClick="ParticiparButton_Click" />
-
-    </form>
+            <!-- Botón de envío -->
+            <div class="col-12 text-center">
+                <asp:Button type="submit" ID="ParticiparButton" CssClass="btn btn-primary" runat="server" Text="Participar" OnClick="ParticiparButton_Click" />
+            </div>
+        </form>
+    </div>
 </asp:Content>
