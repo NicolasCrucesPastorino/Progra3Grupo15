@@ -175,3 +175,13 @@ C:\Users\windows\Desktop\TP WEB GRUPO 15\Progra3Grupo15\TiendaGrupo15Progra3\obj
 C:\Users\windows\Desktop\TP WEB GRUPO 15\Progra3Grupo15\TiendaGrupo15Progra3\obj\Debug\TiendaGr.A7DCF07A.Up2Date
 C:\Users\windows\Desktop\TP WEB GRUPO 15\Progra3Grupo15\TiendaGrupo15Progra3\obj\Debug\TiendaGrupo15Progra3.dll
 C:\Users\windows\Desktop\TP WEB GRUPO 15\Progra3Grupo15\TiendaGrupo15Progra3\obj\Debug\TiendaGrupo15Progra3.pdb
+C:\Users\windows\Desktop\Ultima Version Final\Progra3Grupo15\TiendaGrupo15Progra3\bin\TiendaGrupo15Progra3.dll.config
+C:\Users\windows\Desktop\Ultima Version Final\Progra3Grupo15\TiendaGrupo15Progra3\bin\TiendaGrupo15Progra3.dll
+C:\Users\windows\Desktop\Ultima Version Final\Progra3Grupo15\TiendaGrupo15Progra3\bin\TiendaGrupo15Progra3.pdb
+C:\Users\windows\Desktop\Ultima Version Final\Progra3Grupo15\TiendaGrupo15Progra3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\windows\Desktop\Ultima Version Final\Progra3Grupo15\TiendaGrupo15Progra3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\windows\Desktop\Ultima Version Final\Progra3Grupo15\TiendaGrupo15Progra3\obj\Debug\TiendaGrupo15Progra3.csproj.AssemblyReference.cache
+C:\Users\windows\Desktop\Ultima Version Final\Progra3Grupo15\TiendaGrupo15Progra3\obj\Debug\TiendaGrupo15Progra3.csproj.CoreCompileInputs.cache
+C:\Users\windows\Desktop\Ultima Version Final\Progra3Grupo15\TiendaGrupo15Progra3\obj\Debug\TiendaGr.A7DCF07A.Up2Date
+C:\Users\windows\Desktop\Ultima Version Final\Progra3Grupo15\TiendaGrupo15Progra3\obj\Debug\TiendaGrupo15Progra3.dll
+C:\Users\windows\Desktop\Ultima Version Final\Progra3Grupo15\TiendaGrupo15Progra3\obj\Debug\TiendaGrupo15Progra3.pdb
