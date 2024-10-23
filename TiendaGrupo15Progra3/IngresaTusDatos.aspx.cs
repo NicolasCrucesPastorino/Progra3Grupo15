@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Dominio;
+using Negocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -21,6 +23,8 @@ namespace TiendaGrupo15Progra3
 
         public void ParticiparButton_Click(object sender, EventArgs e)
         {
+            ClienteService clienteService = new ClienteService();
+            Cliente cliente = new Cliente();
             conexionSql = new ConexionSql();
             
             try
@@ -35,7 +39,7 @@ namespace TiendaGrupo15Progra3
                 //CUANDO RECIBE TEXTO TIRA EX, ARREGLAR CARTELITO QUE RECIBE NUMEROS
                 int codigoPostal = Int32.Parse(codigoPostalText.Text.Trim());
 
-                conexionSql.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);
+                clienteService.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('El usuario se ha cargado con exito');", true);
 
             }

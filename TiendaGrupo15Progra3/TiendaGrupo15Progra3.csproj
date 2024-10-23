@@ -177,12 +177,12 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\tp-winform-equipo-15A\Dominio\Dominio.csproj">
-      <Project>{bc14f037-0434-4f95-af3a-b765252a5f25}</Project>
+    <ProjectReference Include="..\Dominio\Dominio.csproj">
+      <Project>{7a853e68-88bb-4b23-9922-05429efd6861}</Project>
       <Name>Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\tp-winform-equipo-15A\Negocio\Negocio.csproj">
-      <Project>{4d1a659b-a6ec-43bb-90bb-c4d007d71d87}</Project>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{9da292b8-bd1f-48dd-88cd-72d25c038c1d}</Project>
       <Name>Negocio</Name>
     </ProjectReference>
   </ItemGroup>
