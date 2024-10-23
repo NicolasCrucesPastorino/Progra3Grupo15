@@ -48,7 +48,7 @@
             <!-- Código Postal -->
             <div class="col-md-6">
                 <label for="codigoPostalText" class="form-label">Código Postal:</label>
-                <asp:TextBox ID="codigoPostalText" CssClass="form-control" placeholder="Código Postal" runat="server"></asp:TextBox>
+                <asp:TextBox ID="codigoPostalText" CssClass="form-control" placeholder="Código Postal" runat="server" textmode="Number"></asp:TextBox>
             </div>
 
             <!-- Aceptar términos -->

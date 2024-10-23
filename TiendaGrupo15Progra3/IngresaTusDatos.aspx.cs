@@ -21,20 +21,31 @@ namespace TiendaGrupo15Progra3
 
         public void ParticiparButton_Click(object sender, EventArgs e)
         {
-
             conexionSql = new ConexionSql();
+            
+            try
+            {
 
-            string numeroDNI = DNInumero.Text;
-            string nombre = nombreText.Text;
-            string apellido = apellidoText.Text;
-            string email = EmailInput.Text;
-            string direccion = direccionText.Text;
-            string ciudad = ciudadText.Text;
-            int codigoPostal = Int32.Parse(codigoPostalText.Text);
+                string numeroDNI = DNInumero.Text.Trim();
+                string nombre = nombreText.Text.Trim();
+                string apellido = apellidoText.Text.Trim();
+                string email = EmailInput.Text.Trim();
+                string direccion = direccionText.Text.Trim();
+                string ciudad = ciudadText.Text.Trim();
+                //CUANDO RECIBE TEXTO TIRA EX, ARREGLAR CARTELITO QUE RECIBE NUMEROS
+                int codigoPostal = Int32.Parse(codigoPostalText.Text.Trim());
 
+                conexionSql.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('El usuario se ha cargado con exito');", true);
 
-            conexionSql.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);
-            ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('El usuario se ha cargado con exito');", true);
+            }
+            catch (Exception ex)
+            {
+                string excepcion = ex.ToString();
+
+            }
+
+            
         }
 
 
