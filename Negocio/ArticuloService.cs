@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 using Dominio;
 using System.Data.SqlClient;
+using System.Collections;
 
 namespace Negocio
 {
@@ -15,47 +16,48 @@ namespace Negocio
 
         public List<Articulo> GetPremios()
         {
-            List<Articulo> premios = new List<Articulo>();
             List<Articulo> premiosFinal = new List<Articulo>();
             AccesoDatos datos = new AccesoDatos();
-            Imagen imagen = new Imagen();
-            {
+           ImagenService imagenPremio = new ImagenService();
 
+            try
+            {
                 datos.setearConsulta("SELECT Id, Nombre, Descripcion, Codigo FROM ARTICULOS");
                 datos.ejecutarLectura();
-
-                    {
-                        while (datos.Lector.Read())
-                        {
-                            Articulo premio = new Articulo();
-                            premio.Id = Convert.ToInt32(datos.Lector["Id"]);
-                            premio.Nombre = Convert.ToString(datos.Lector["Nombre"]);
-                            premio.CodigoArticulo = Convert.ToString(datos.Lector["Codigo"]);
-                            premio.Descripcion = Convert.ToString(datos.Lector["Descripcion"]);
+                datos.Lector.Read();
 
 
-                            premios.Add(premio);
-                        }
-                    }
-                }
-                int index = 0;
-                foreach (Articulo premioFor in premios)
+                while (datos.Lector.Read())
                 {
-                datos.setearConsulta("SELECT ImagenUrl FROM IMAGENES WHERE IdArticulo = @IdArticulo");
-                datos.setearParametro("@IdArticulo", premioFor.Id);
-                datos.ejecutarAccion();
+                    Articulo premio = new Articulo();
+                    premio.Id = Convert.ToInt32(datos.Lector["Id"]);
+                    premio.Nombre = Convert.ToString(datos.Lector["Nombre"]);
+                    premio.CodigoArticulo = Convert.ToString(datos.Lector["Codigo"]);
+                    premio.Descripcion = Convert.ToString(datos.Lector["Descripcion"]);
 
-                            while (datos.Lector.Read())
-                            {
-                                imagen.UrlImagen = Convert.ToString(datos.Lector["ImagenUrl"]);
-                                premioFor.Imagenes[index] = imagen;
-                                index++;
-                            }
-                            premiosFinal.Add(premioFor);
-                index = 0;
+
+                    premiosFinal.Add(premio);
                 }
-            
-            return premiosFinal;
+
+                foreach (Articulo a in premiosFinal)
+                {
+                    List<Imagen> listaimagenesPremio = imagenPremio.listarPorIdArticulo(a.Id);
+                    a.Imagenes = listaimagenesPremio;
+                   
+                }
+
+                return premiosFinal;
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            } 
         }
         public List<Articulo> listar()
         {

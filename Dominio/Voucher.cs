@@ -12,6 +12,6 @@ namespace Dominio
         public string codigoVoucher { get; set; }
         public int cliente { get; set; }
         public int ArticuloId { get; set; }
-        public DateTime FechaCanje { get; set; }
+        public DateTime? FechaCanje { get; set; }
     }
 }

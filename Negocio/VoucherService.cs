@@ -10,22 +10,44 @@ namespace Negocio
 {
     public class VoucherService
     {
-        public bool ExisteCodigo(string CodigoVoucher)
+        
+
+        public bool FechaCanjeESnull(string CodigoVoucher)
         {
-            List<string> codigos = new List<string>();
-            AccesoDatos datos = new AccesoDatos();
+            AccesoDatos datos = new AccesoDatos ();
+            Voucher aux = new Voucher ();
 
-                datos.setearConsulta("SELECT CodigoVoucher FROM Vouchers");
+            try
+            {
+                datos.setearConsulta("SELECT CodigoVoucher,FechaCanje FROM VOUCHERS where CodigoVoucher=@CodigoVoucher");
+                datos.setearParametro("@CodigoVoucher",CodigoVoucher);
+                datos.ejecutarLectura();
+                datos.Lector.Read();
 
-                    
-                        while (datos.Lector.Read())
-                        {
-                            codigos.Add(Convert.ToString(datos.Lector["CodigoVoucher"]));
-                        }
+                if (!datos.Lector.HasRows)
+                {
+                    return false;
+                }
 
+                if (datos.Lector != null)
+                {
+                   aux.FechaCanje = datos.Lector["FechaCanje"] != DBNull.Value ? (DateTime?)Convert.ToDateTime(datos.Lector["FechaCanje"]) : null;  
+                }
+                if(aux.FechaCanje == null)
+                {
+                    return true;
+                }
 
-                return codigos.Find(codigo => codigo.Equals(CodigoVoucher)) != null;
-
+                    return false;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
             
         }
 

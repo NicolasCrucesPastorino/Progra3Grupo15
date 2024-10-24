@@ -4,3 +4,9 @@ C:\Users\Nico\Downloads\proyectoASP.Net con Agus 23102024\Progra3Grupo15\Dominio
 C:\Users\Nico\Downloads\proyectoASP.Net con Agus 23102024\Progra3Grupo15\Dominio\bin\Debug\Dominio.pdb
 C:\Users\Nico\Downloads\proyectoASP.Net con Agus 23102024\Progra3Grupo15\Dominio\obj\Debug\Dominio.dll
 C:\Users\Nico\Downloads\proyectoASP.Net con Agus 23102024\Progra3Grupo15\Dominio\obj\Debug\Dominio.pdb
+D:\HP\Escritorio\Progra3Grupo15\Dominio\bin\Debug\Dominio.dll
+D:\HP\Escritorio\Progra3Grupo15\Dominio\bin\Debug\Dominio.pdb
+D:\HP\Escritorio\Progra3Grupo15\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+D:\HP\Escritorio\Progra3Grupo15\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+D:\HP\Escritorio\Progra3Grupo15\Dominio\obj\Debug\Dominio.dll
+D:\HP\Escritorio\Progra3Grupo15\Dominio\obj\Debug\Dominio.pdb

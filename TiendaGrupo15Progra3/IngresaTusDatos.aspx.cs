@@ -13,20 +13,27 @@ namespace TiendaGrupo15Progra3
 {
     public partial class IngresaTusDatos : System.Web.UI.Page
     {
+        string CodigoVoucherTraido { get; set; }
+
         protected void Page_Load(object sender, EventArgs e)
         {
-          
-            
+            if (!IsPostBack)
+            {
+                if (Session["CodigoVoucher"] != null)
+                {
+                    string codigoVoucher = Session["CodigoVoucher"].ToString();
+                    CodigoVoucherTraido = codigoVoucher; 
+                }
+                
+
+            }
         }
-
-        private ConexionSql conexionSql = new ConexionSql();
-
+       
         public void ParticiparButton_Click(object sender, EventArgs e)
         {
             ClienteService clienteService = new ClienteService();
-            Cliente cliente = new Cliente();
-            conexionSql = new ConexionSql();
-            
+            bool clienteExistente = false;
+
             try
             {
 
@@ -36,9 +43,9 @@ namespace TiendaGrupo15Progra3
                 string email = EmailInput.Text.Trim();
                 string direccion = direccionText.Text.Trim();
                 string ciudad = ciudadText.Text.Trim();
-                //CUANDO RECIBE TEXTO TIRA EX, ARREGLAR CARTELITO QUE RECIBE NUMEROS
+               
                 int codigoPostal = Int32.Parse(codigoPostalText.Text.Trim());
-
+                
                 clienteService.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('El usuario se ha cargado con exito');", true);
 
