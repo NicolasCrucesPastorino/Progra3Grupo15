@@ -15,6 +15,10 @@
                 <asp:TextBox ID="DNInumero" textmode="Number" CssClass="form-control" placeholder="12345678" runat="server"></asp:TextBox>
             </div>
             
+            <div class="col-md-7 text-center">
+                <asp:Button type="submit" ID="Button2" CssClass="btn btn-Secondary" runat="server" Text="Validar DNI" OnClick="ValidarClickButton_Click" />
+            </div>
+            
             <!-- Nombre -->
             <div class="col-md-6">
                 <label for="nombreText" class="form-label">Nombre:</label>

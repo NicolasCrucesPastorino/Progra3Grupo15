@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Services.Description;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using TiendaGrupo15Progra3.conexion;
+
 
 namespace TiendaGrupo15Progra3
 {
@@ -32,6 +32,7 @@ namespace TiendaGrupo15Progra3
 
         public void ParticiparButton_Click(object sender, EventArgs e)
         {
+
             if (!terminosCheckBox.Checked)
             {
                 MostrarAlerta("Por favor, acepte los términos y condiciones.");
@@ -76,18 +77,12 @@ namespace TiendaGrupo15Progra3
                     MostrarAlerta("El código postal no puede ser un número negativo.");
                     return;
                 }
-
                 ClienteService clienteService = new ClienteService();
-
-                if (clienteService.dniExiste(numeroDNI))
-                {
-                    MostrarAlerta("Este DNI ya está registrado.");
-                    return;
-                }
 
                 clienteService.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);
 
-                MostrarAlerta("El usuario se ha cargado con éxito.");
+                Response.Redirect("/Exito.aspx");
+
             }
             catch (Exception ex)
             {
@@ -100,6 +95,30 @@ namespace TiendaGrupo15Progra3
             ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", $"alert('{mensaje}');", true);
         }
 
+        protected void ValidarClickButton_Click(object sender, EventArgs e)
+        {
+            ClienteService clienteService = new ClienteService();
 
+            try
+            {
+                string numeroDNI = DNInumero.Text.Trim();
+
+                if (clienteService.dniExiste(numeroDNI))
+                {
+                    Response.Redirect("/DNIexistente.aspx");
+                    return;
+                }
+                
+                    MostrarAlerta("El dni no se encuentra registrado complete el formulario .");
+                    return;
+
+            }
+            catch (Exception ex)
+            {
+
+                MostrarAlerta($"Ocurrió un error: {ex.Message}");
+            }
+            
+        }
     }
 }

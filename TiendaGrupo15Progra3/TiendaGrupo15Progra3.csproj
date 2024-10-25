@@ -84,7 +84,9 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DNIexistente.aspx" />
     <Content Include="ElijeTuPremio.aspx" />
+    <Content Include="Exito.aspx" />
     <Content Include="Global.asax" />
     <Content Include="IngresaTusDatos.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -97,7 +99,6 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="conexion\ConexionSql.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -105,12 +106,26 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DNIexistente.aspx.cs">
+      <DependentUpon>DNIexistente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DNIexistente.aspx.designer.cs">
+      <DependentUpon>DNIexistente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ElijeTuPremio.aspx.cs">
       <DependentUpon>ElijeTuPremio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ElijeTuPremio.aspx.designer.cs">
       <DependentUpon>ElijeTuPremio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Exito.aspx.cs">
+      <DependentUpon>Exito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Exito.aspx.designer.cs">
+      <DependentUpon>Exito.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

@@ -24,7 +24,7 @@ namespace Negocio
             {
                 datos.setearConsulta("SELECT Id, Nombre, Descripcion, Codigo FROM ARTICULOS");
                 datos.ejecutarLectura();
-                datos.Lector.Read();
+            
 
 
                 while (datos.Lector.Read())
