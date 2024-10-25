@@ -10,7 +10,8 @@ namespace Negocio
 {
     public class VoucherService
     {
-        
+
+     
 
         public bool FechaCanjeESnull(string CodigoVoucher)
         {

@@ -12,7 +12,7 @@ namespace TiendaGrupo15Progra3
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        
+
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -21,7 +21,7 @@ namespace TiendaGrupo15Progra3
 
         protected void EnviarCodigoVoucher_Click(object sender, EventArgs e)
         {
-            
+
             VoucherService voucherService = new VoucherService();
 
             string CodigoVoucher = CodigoVoucherText.Text.Trim();
@@ -38,12 +38,12 @@ namespace TiendaGrupo15Progra3
 
                 throw ex;
             }
-            
+
 
             if (CuponValido)
             {
 
-                Response.Redirect("/ElijeTuPremio.aspx?CodigoVoucher="+CodigoVoucher);    
+                Response.Redirect("/ElijeTuPremio.aspx?CodigoVoucher=" + CodigoVoucher);
             }
             else
             {

@@ -91,8 +91,41 @@ namespace TiendaGrupo15Progra3.conexion
         //CLIENTE SERVICE
         public void insertarCliente(string Documento, string Nombre, string Apellido, string Email, string Direccion, string Ciudad, int CP)
         {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+                    string query = @"
+                INSERT INTO Clientes (Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP) 
+                VALUES (@Documento, @Nombre, @Apellido, @Email, @Direccion, @Ciudad, @CP)";
 
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@Documento", Documento);
+                        command.Parameters.AddWithValue("@Nombre", Nombre);
+                        command.Parameters.AddWithValue("@Apellido", Apellido);
+                        command.Parameters.AddWithValue("@Email", Email);
+                        command.Parameters.AddWithValue("@Direccion", Direccion);
+                        command.Parameters.AddWithValue("@Ciudad", Ciudad);
+                        command.Parameters.AddWithValue("@CP", CP);
 
+                        int rowsAffected = command.ExecuteNonQuery();
+                        if (rowsAffected > 0)
+                        {
+                            Console.WriteLine("Cliente insertado correctamente.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("No se pudo insertar el cliente.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ocurrió un error: {ex.Message}");
+                }
+            }
         }
     }
 }
