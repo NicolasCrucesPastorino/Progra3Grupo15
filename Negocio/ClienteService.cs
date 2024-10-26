@@ -1,5 +1,7 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -63,6 +65,40 @@ namespace Negocio
             {
                 datos.cerrarConexion();
             }
+        }
+
+        public Cliente PrellenarDatos (string dni)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            Cliente existente = new Cliente();
+            try
+            {
+                datos.setearConsulta("SELECT Id,Nombre,Apellido,Email,Direccion,Ciudad,Cp FROM Clientes WHERE DOCUMENTO='@dni'");
+                datos.setearParametro("@dni",dni);
+                datos.ejecutarLectura();
+
+                while(datos.Lector.Read())
+                {
+                    existente.idCliente = (int)datos.Lector["Id"];
+                    existente.nombre = (string)datos.Lector["Nombre"];
+                    existente.apellido = (string)datos.Lector["Apellido"];
+                    existente.email = (string)datos.Lector["Email"];
+                    existente.direccion = (string)datos.Lector["Direccion"];
+                    existente.ciudad = (string)datos.Lector["Ciudad"];
+                    existente.cp = (int)datos.Lector["Cp"];
+                }
+                
+                return existente;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+            
         }
     }
 }

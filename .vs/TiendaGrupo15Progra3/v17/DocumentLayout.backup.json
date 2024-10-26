@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\HP\\Escritorio\\Progra3Grupo15\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|D:\\HP\\Escritorio\\Progra3Grupo15\\tiendagrupo15progra3\\ingresatusdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\ingresatusdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|d:\\hp\\escritorio\\progra3grupo15\\tiendagrupo15progra3\\ingresatusdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\ingresatusdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|D:\\HP\\Escritorio\\Progra3Grupo15\\tiendagrupo15progra3\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|D:\\HP\\Escritorio\\Progra3Grupo15\\tiendagrupo15progra3\\ingresatusdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\ingresatusdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|d:\\hp\\escritorio\\progra3grupo15\\tiendagrupo15progra3\\dniexistente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\dniexistente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DA292B8-BD1F-48DD-88CD-72D25C038C1D}|Negocio\\Negocio.csproj|d:\\hp\\escritorio\\progra3grupo15\\negocio\\voucherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DA292B8-BD1F-48DD-88CD-72D25C038C1D}|Negocio\\Negocio.csproj|solutionrelative:negocio\\voucherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|d:\\hp\\escritorio\\progra3grupo15\\tiendagrupo15progra3\\ingresatusdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\ingresatusdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|D:\\HP\\Escritorio\\Progra3Grupo15\\tiendagrupo15progra3\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{C739637F-87B6-4E03-A483-E775AF6B6AEF}|TiendaGrupo15Progra3\\TiendaGrupo15Progra3.csproj|solutionrelative:tiendagrupo15progra3\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DA292B8-BD1F-48DD-88CD-72D25C038C1D}|Negocio\\Negocio.csproj|D:\\HP\\Escritorio\\Progra3Grupo15\\negocio\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9DA292B8-BD1F-48DD-88CD-72D25C038C1D}|Negocio\\Negocio.csproj|D:\\HP\\Escritorio\\Progra3Grupo15\\negocio\\articuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DA292B8-BD1F-48DD-88CD-72D25C038C1D}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA292B8-BD1F-48DD-88CD-72D25C038C1D}|Negocio\\Negocio.csproj|D:\\HP\\Escritorio\\Progra3Grupo15\\negocio\\voucherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA292B8-BD1F-48DD-88CD-72D25C038C1D}|Negocio\\Negocio.csproj|solutionrelative:negocio\\voucherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,35 +38,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "D:\\HP\\Escritorio\\Progra3Grupo15\\TiendaGrupo15Progra3\\Default.aspx.cs",
               "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\Default.aspx.cs",
               "ToolTip": "D:\\HP\\Escritorio\\Progra3Grupo15\\TiendaGrupo15Progra3\\Default.aspx.cs",
               "RelativeToolTip": "TiendaGrupo15Progra3\\Default.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T22:16:40.247Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ArticuloService.cs",
               "DocumentMoniker": "D:\\HP\\Escritorio\\Progra3Grupo15\\Negocio\\ArticuloService.cs",
               "RelativeDocumentMoniker": "Negocio\\ArticuloService.cs",
               "ToolTip": "D:\\HP\\Escritorio\\Progra3Grupo15\\Negocio\\ArticuloService.cs",
               "RelativeToolTip": "Negocio\\ArticuloService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAD0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T18:30:56.049Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -78,20 +76,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DNIexistente.aspx",
-              "DocumentMoniker": "D:\\HP\\Escritorio\\Progra3Grupo15\\TiendaGrupo15Progra3\\DNIexistente.aspx",
-              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\DNIexistente.aspx",
-              "ToolTip": "D:\\HP\\Escritorio\\Progra3Grupo15\\TiendaGrupo15Progra3\\DNIexistente.aspx",
-              "RelativeToolTip": "TiendaGrupo15Progra3\\DNIexistente.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-25T01:52:59.25Z",
+              "DocumentIndex": 1,
+              "Title": "IngresaTusDatos.aspx.cs",
+              "DocumentMoniker": "D:\\HP\\Escritorio\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
+              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
+              "ToolTip": "D:\\HP\\Escritorio\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
+              "RelativeToolTip": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T23:01:53.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Site1.Master",
+              "DocumentMoniker": "D:\\HP\\Escritorio\\Progra3Grupo15\\TiendaGrupo15Progra3\\Site1.Master",
+              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\Site1.Master",
+              "ToolTip": "D:\\HP\\Escritorio\\Progra3Grupo15\\TiendaGrupo15Progra3\\Site1.Master",
+              "RelativeToolTip": "TiendaGrupo15Progra3\\Site1.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-25T02:29:07.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "IngresaTusDatos.aspx",
               "DocumentMoniker": "D:\\HP\\Escritorio\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx",
               "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx",
@@ -104,7 +115,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "D:\\HP\\Escritorio\\Progra3Grupo15\\Negocio\\ClienteService.cs",
+              "RelativeDocumentMoniker": "Negocio\\ClienteService.cs",
+              "ToolTip": "D:\\HP\\Escritorio\\Progra3Grupo15\\Negocio\\ClienteService.cs",
+              "RelativeToolTip": "Negocio\\ClienteService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T22:11:35.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "VoucherService.cs",
               "DocumentMoniker": "D:\\HP\\Escritorio\\Progra3Grupo15\\Negocio\\VoucherService.cs",
               "RelativeDocumentMoniker": "Negocio\\VoucherService.cs",
@@ -112,34 +135,7 @@
               "RelativeToolTip": "Negocio\\VoucherService.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAhwCkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:35:17.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClienteService.cs",
-              "DocumentMoniker": "D:\\HP\\Escritorio\\Progra3Grupo15\\Negocio\\ClienteService.cs",
-              "RelativeDocumentMoniker": "Negocio\\ClienteService.cs",
-              "ToolTip": "D:\\HP\\Escritorio\\Progra3Grupo15\\Negocio\\ClienteService.cs",
-              "RelativeToolTip": "Negocio\\ClienteService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADYAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:49:01.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IngresaTusDatos.aspx.cs",
-              "DocumentMoniker": "D:\\HP\\Escritorio\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
-              "RelativeDocumentMoniker": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
-              "ToolTip": "D:\\HP\\Escritorio\\Progra3Grupo15\\TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
-              "RelativeToolTip": "TiendaGrupo15Progra3\\IngresaTusDatos.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T22:09:44.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T01:35:17.585Z"
             }
           ]
         }

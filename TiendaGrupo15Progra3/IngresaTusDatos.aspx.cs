@@ -81,7 +81,7 @@ namespace TiendaGrupo15Progra3
 
                 clienteService.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);
 
-                Response.Redirect("/Exito.aspx");
+                Response.Redirect("/UsuarioRegistrado.aspx");
 
             }
             catch (Exception ex)
@@ -98,6 +98,8 @@ namespace TiendaGrupo15Progra3
         protected void ValidarClickButton_Click(object sender, EventArgs e)
         {
             ClienteService clienteService = new ClienteService();
+            ClienteService llenarCampos = new ClienteService();
+            Cliente existente = new Cliente();
 
             try
             {
@@ -105,12 +107,21 @@ namespace TiendaGrupo15Progra3
 
                 if (clienteService.dniExiste(numeroDNI))
                 {
-                    Response.Redirect("/DNIexistente.aspx");
-                    return;
+                    existente=llenarCampos.PrellenarDatos(numeroDNI);
+
+                    DNInumero.Text = existente.dni.ToString();
+                    nombreText.Text = existente.nombre;
+                    apellidoText.Text = existente.apellido;
+                    EmailInput.Text = existente.email;
+                    direccionText.Text = existente.direccion;
+                    ciudadText.Text = existente.ciudad;
+                    codigoPostalText.Text = existente.cp.ToString();
+                    
                 }
-                
+                else
+                {
                     MostrarAlerta("El dni no se encuentra registrado complete el formulario .");
-                    return;
+                } 
 
             }
             catch (Exception ex)
