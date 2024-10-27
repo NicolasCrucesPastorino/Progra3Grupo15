@@ -78,8 +78,12 @@ namespace TiendaGrupo15Progra3
                     return;
                 }
                 ClienteService clienteService = new ClienteService();
+                ClienteService existe = new ClienteService();
 
-                clienteService.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);
+                //Si no existe//
+                if (!existe.dniExiste(numeroDNI))
+
+                { clienteService.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);}
 
                 Response.Redirect("/UsuarioRegistrado.aspx");
 

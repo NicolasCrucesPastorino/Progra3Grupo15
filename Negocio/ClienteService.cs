@@ -54,8 +54,18 @@ namespace Negocio
             {
                 datos.setearConsulta("SELECT COUNT(*) FROM Clientes WHERE Documento = @Documento");
                 datos.setearParametro("@Documento", Documento);
-                int count = (int)datos.insertarYobtenerId();   
-                return count > 0;  
+                datos.ejecutarLectura();
+               
+                int count = 0;
+
+                if (datos.Lector.Read())
+                {
+                    count = datos.Lector.GetInt32(0);
+                }
+                if (count > 0) {return true;}
+                else { return false;}
+
+              
             }
             catch (Exception ex)
             {
@@ -73,7 +83,7 @@ namespace Negocio
             Cliente existente = new Cliente();
             try
             {
-                datos.setearConsulta("SELECT Id,Nombre,Apellido,Email,Direccion,Ciudad,Cp FROM Clientes WHERE DOCUMENTO='@dni'");
+                datos.setearConsulta("SELECT Id,Nombre,Apellido,Email,Direccion,Ciudad,Cp,Documento FROM Clientes WHERE DOCUMENTO=@dni");
                 datos.setearParametro("@dni",dni);
                 datos.ejecutarLectura();
 
@@ -86,6 +96,7 @@ namespace Negocio
                     existente.direccion = (string)datos.Lector["Direccion"];
                     existente.ciudad = (string)datos.Lector["Ciudad"];
                     existente.cp = (int)datos.Lector["Cp"];
+                    existente.dni =  int.Parse(dni);
                 }
                 
                 return existente;
