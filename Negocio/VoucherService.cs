@@ -52,5 +52,18 @@ namespace Negocio
             
         }
 
+        public void UpgradeVoucher (string CodigoVoucher,int id,int articuloId)
+        {   
+            DateTime fechaActual=DateTime.Now;
+            AccesoDatos datos = new AccesoDatos();
+            datos.setearConsulta("UPDATE Vouchers SET IdCliente =@IdCliente, IdArticulo =@IdArticulo  , FechaCanje=@fecha WHERE CodigoVoucher = @CodigoVoucher");
+            datos.setearParametro("@IdCliente", id);
+            datos.setearParametro("@IdArticulo", articuloId);
+            datos.setearParametro("@fecha", fechaActual);
+            datos.setearParametro("@CodigoVoucher",CodigoVoucher);
+            datos.ejecutarAccion();
+        }
+        
+
     }
 }

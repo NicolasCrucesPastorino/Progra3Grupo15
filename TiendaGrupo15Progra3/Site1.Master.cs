@@ -9,10 +9,7 @@ namespace TiendaGrupo15Progra3
 {
     public partial class Site1 : System.Web.UI.MasterPage
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
+       
 
         protected void btnParticipa_Click(object sender, EventArgs e)
         {

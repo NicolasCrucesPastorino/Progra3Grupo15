@@ -15,19 +15,28 @@ namespace TiendaGrupo15Progra3
     public partial class IngresaTusDatos : System.Web.UI.Page
     {
         string CodigoVoucherTraido { get; set; }
+        string ArticuloId { get; set; }
+
+        int IdCliente {  get; set; }   
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
+
+
+            
                 if (Session["CodigoVoucher"] != null)
                 {
+                   
                     string codigoVoucher = Session["CodigoVoucher"].ToString();
                     CodigoVoucherTraido = codigoVoucher; 
                 }
+                if (Request.QueryString["option"] != null)
+                {
+                    string premioId = Request.QueryString["option"];
+                    ArticuloId = premioId;
+                    // Ahora puedes usar `premioId` según sea necesario
+                }
                 
-
-            }
         }
 
         public void ParticiparButton_Click(object sender, EventArgs e)
@@ -83,8 +92,18 @@ namespace TiendaGrupo15Progra3
                 //Si no existe//
                 if (!existe.dniExiste(numeroDNI))
 
-                { clienteService.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);}
+                {
+                    clienteService.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);
 
+                    IdCliente = clienteService.ObtenerIdCliente(numeroDNI);
+                    VoucherService CanjeVoucherNuevoCliente = new VoucherService();
+                    CanjeVoucherNuevoCliente.UpgradeVoucher(CodigoVoucherTraido, IdCliente, int.Parse(ArticuloId));
+                    Response.Redirect("/UsuarioRegistrado.aspx");
+                }
+
+                IdCliente = clienteService.ObtenerIdCliente(numeroDNI);
+                VoucherService CanjeVoucherClienteExistente = new VoucherService();
+                CanjeVoucherClienteExistente.UpgradeVoucher(CodigoVoucherTraido, IdCliente, int.Parse(ArticuloId));
                 Response.Redirect("/UsuarioRegistrado.aspx");
 
             }

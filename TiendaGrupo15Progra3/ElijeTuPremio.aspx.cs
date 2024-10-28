@@ -20,6 +20,7 @@ namespace TiendaGrupo15Progra3
             if (!IsPostBack)
             {
                 string codigoVoucher = Request.QueryString["CodigoVoucher"];
+                
                 if (!string.IsNullOrEmpty(codigoVoucher))
                 {
                     // Guardar el código del voucher en una variable de sesión o un control oculto para su uso posterior
@@ -30,6 +31,7 @@ namespace TiendaGrupo15Progra3
             premios=articuloService.GetPremios();
 
         }
+
         
     }
 }

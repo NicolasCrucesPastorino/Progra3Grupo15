@@ -34,7 +34,8 @@
                         </button>
                     </div>
 
-                    <a href="/IngresaTusDatos.aspx?option=<%= premio.Id %>" class="btn btn-primary" onClick="PremioElegido">Elígeme</a>
+                     <a href="/IngresaTusDatos.aspx?option=<%= premio.Id %>" class="btn btn-primary" onClick="PremioElegido">Elígeme</a>
+                     
                 </div>
             </div>
         </div>

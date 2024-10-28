@@ -77,6 +77,34 @@ namespace Negocio
             }
         }
 
+        public int ObtenerIdCliente(string Documento)
+        {
+            int Id;
+            AccesoDatos datos = new AccesoDatos();
+            datos.setearConsulta("select Id from Clientes where Documento=@Documento");
+            datos.setearParametro("@Documento", int.Parse(Documento));
+            datos.ejecutarLectura();
+
+            try
+            {
+                if (datos.Lector.Read())
+                {
+                    Id = Convert.ToInt32(datos.Lector["Id"]);
+                    
+                    return Id;
+                }
+
+            }
+            catch(Exception ex) 
+            {
+                throw new Exception("Error ObtenerIdCliente " + ex.Message);
+            }
+            finally
+            {
+
+            }
+            return 0;
+        }
         public Cliente PrellenarDatos (string dni)
         {
             AccesoDatos datos = new AccesoDatos();
