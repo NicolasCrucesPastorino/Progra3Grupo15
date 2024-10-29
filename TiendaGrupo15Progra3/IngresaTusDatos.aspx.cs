@@ -16,8 +16,8 @@ namespace TiendaGrupo15Progra3
     {
         string CodigoVoucherTraido { get; set; }
         string ArticuloId { get; set; }
-
-        int IdCliente {  get; set; }   
+        int IdCliente {  get; set; }
+        //bool validarDNIcontraDB;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -30,17 +30,23 @@ namespace TiendaGrupo15Progra3
                     string codigoVoucher = Session["CodigoVoucher"].ToString();
                     CodigoVoucherTraido = codigoVoucher; 
                 }
-                if (Request.QueryString["option"] != null)
-                {
-                    string premioId = Request.QueryString["option"];
-                    ArticuloId = premioId;
-                    // Ahora puedes usar `premioId` según sea necesario
-                }
+            if (Request.QueryString["option"] != null)
+            {
+                string premioId = Request.QueryString["option"];
+                ArticuloId = premioId;
+            }
                 
+                if (!IsPostBack) 
+                {
+                    // Inicializa la variable global en false
+                    Session["validarDNIcontraDB"] = false;
+                }
+          
         }
 
         public void ParticiparButton_Click(object sender, EventArgs e)
         {
+            
 
             if (!terminosCheckBox.Checked)
             {
@@ -90,7 +96,7 @@ namespace TiendaGrupo15Progra3
                 ClienteService existe = new ClienteService();
 
                 //Si no existe//
-                if (!existe.dniExiste(numeroDNI))
+                if ((!existe.dniExiste(numeroDNI)) && (bool)Session["validarDNIcontraDB"])
 
                 {
                     clienteService.insertarCliente(numeroDNI, nombre, apellido, email, direccion, ciudad, codigoPostal);
@@ -100,12 +106,21 @@ namespace TiendaGrupo15Progra3
                     CanjeVoucherNuevoCliente.UpgradeVoucher(CodigoVoucherTraido, IdCliente, int.Parse(ArticuloId));
                     Response.Redirect("/UsuarioRegistrado.aspx");
                 }
-
-                IdCliente = clienteService.ObtenerIdCliente(numeroDNI);
-                VoucherService CanjeVoucherClienteExistente = new VoucherService();
-                CanjeVoucherClienteExistente.UpgradeVoucher(CodigoVoucherTraido, IdCliente, int.Parse(ArticuloId));
-                Response.Redirect("/UsuarioRegistrado.aspx");
-
+                else
+                {
+                    if ((bool)Session["validarDNIcontraDB"])
+                    {
+                        IdCliente = clienteService.ObtenerIdCliente(numeroDNI);
+                        VoucherService CanjeVoucherClienteExistente = new VoucherService();
+                        CanjeVoucherClienteExistente.UpgradeVoucher(CodigoVoucherTraido, IdCliente, int.Parse(ArticuloId));
+                        Response.Redirect("/UsuarioRegistrado.aspx");
+                    }
+                    else 
+                    { 
+                        MostrarAlerta($"Debe validar su DNI apretando el boton");
+                        return;
+                    }
+                }
             }
             catch (Exception ex)
             {
@@ -123,7 +138,7 @@ namespace TiendaGrupo15Progra3
             ClienteService clienteService = new ClienteService();
             ClienteService llenarCampos = new ClienteService();
             Cliente existente = new Cliente();
-
+            
             try
             {
                 string numeroDNI = DNInumero.Text.Trim();
@@ -139,11 +154,14 @@ namespace TiendaGrupo15Progra3
                     direccionText.Text = existente.direccion;
                     ciudadText.Text = existente.ciudad;
                     codigoPostalText.Text = existente.cp.ToString();
-                    
-                }
+
+                        Session["validarDNIcontraDB"] = true;
+
+                    }
                 else
                 {
                     MostrarAlerta("El dni no se encuentra registrado complete el formulario .");
+                    Session["validarDNIcontraDB"] = true;
                 } 
 
             }

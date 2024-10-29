@@ -86,6 +86,7 @@
     <Content Include="Default.aspx" />
     <Content Include="ElijeTuPremio.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Images\StyleSheet1.css" />
     <Content Include="IngresaTusDatos.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -180,6 +181,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="App_LocalResources\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dominio\Dominio.csproj">
