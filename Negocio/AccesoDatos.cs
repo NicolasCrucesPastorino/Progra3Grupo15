@@ -24,7 +24,7 @@ namespace Negocio
         }
         public AccesoDatos()
         {
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database = PROMOS_DB; integrated security = true");
+            conexion = new SqlConnection("server=localhost; database =  pruebaEcommerce; integrated security = true");
             comando = new SqlCommand();
 
 

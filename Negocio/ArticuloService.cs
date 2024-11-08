@@ -14,39 +14,93 @@ namespace Negocio
     public class ArticuloService
     {
 
-        public List<Articulo> GetPremios()
+        public List<Articulo> GetArticulos()
         {
-            List<Articulo> premiosFinal = new List<Articulo>();
+            List<Articulo> ArticulosFinal = new List<Articulo>();
             AccesoDatos datos = new AccesoDatos();
-           ImagenService imagenPremio = new ImagenService();
+            ImagenService imagenArticulos = new ImagenService();
+            Marca Maraux = new Marca();
+            Categoria CatAux = new Categoria();
 
             try
             {
-                datos.setearConsulta("SELECT Id, Nombre, Descripcion, Codigo FROM ARTICULOS");
+                datos.setearConsulta("SELECT ART.Id, ART.Nombre, ART.Codigo, ART.Descripcion, ART.Precio, MAR.Descripcion AS MarcaDescripcion, CAT.Descripcion AS CategoriaDescripcion " +
+                                     "FROM ARTICULOS ART " +
+                                     "INNER JOIN CATEGORIAS CAT ON ART.IdCategoria = CAT.Id " +
+                                     "INNER JOIN MARCAS MAR ON ART.IdMarca = MAR.Id");
+                datos.ejecutarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    Articulo aux = new Articulo();
+                    aux.Id = Convert.ToInt32(datos.Lector["Id"]);
+                    aux.Nombre = Convert.ToString(datos.Lector["Nombre"]);
+                    aux.CodigoArticulo = Convert.ToString(datos.Lector["Codigo"]);
+                    aux.Descripcion = Convert.ToString(datos.Lector["Descripcion"]);
+                    aux.Precio = (decimal)(datos.Lector["Precio"]);
+                    Maraux.Descripcion = Convert.ToString(datos.Lector["MarcaDescripcion"]);
+                    CatAux.Descripcion = Convert.ToString(datos.Lector["CategoriaDescripcion"]);
+                    aux.Marca = Maraux;
+                    aux.Categoria = CatAux;
+
+                    ArticulosFinal.Add(aux);
+                }
+
+                foreach (Articulo a in ArticulosFinal)
+                {
+                    List<Imagen> listaimagenesArticulos = imagenArticulos.listarPorIdArticulo(a.Id);
+                    a.Imagenes = listaimagenesArticulos;
+                }
+
+                return ArticulosFinal;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+
+        public List<Articulo> GetArticulos2()
+        {
+            List<Articulo> ArticulosFinal = new List<Articulo>();
+            AccesoDatos datos = new AccesoDatos();
+           ImagenService imagenArticulos = new ImagenService();
+
+            try
+            {
+                datos.setearConsulta("select ARTICULOS.Id, ARTICULOS.Nombre, ARTICULOS.Codigo ,ARTICULOS.Descripcion, ARTICULOS.Precio, MARCAS.Descripcion,CATEGORIAS.Descripcion from ARTICULOS" +
+                    " INNER JOIN CATEGORIAS on ARTICULOS.IdCategoria = CATEGORIAS.Id" +
+                    " INNER JOIN MARCAS on ARTICULOS.IdMarca=MARCAS.Id");
                 datos.ejecutarLectura();
             
 
 
                 while (datos.Lector.Read())
                 {
-                    Articulo premio = new Articulo();
-                    premio.Id = Convert.ToInt32(datos.Lector["Id"]);
-                    premio.Nombre = Convert.ToString(datos.Lector["Nombre"]);
-                    premio.CodigoArticulo = Convert.ToString(datos.Lector["Codigo"]);
-                    premio.Descripcion = Convert.ToString(datos.Lector["Descripcion"]);
-
-
-                    premiosFinal.Add(premio);
+                    Articulo aux = new Articulo();
+                    aux.Id = Convert.ToInt32(datos.Lector["Id"]);
+                    aux.Nombre = Convert.ToString(datos.Lector["Nombre"]);
+                    aux.CodigoArticulo = Convert.ToString(datos.Lector["Codigo"]);
+                    aux.Descripcion = Convert.ToString(datos.Lector["ARTICULOS.Descripcion"]); aux.Precio = (decimal)(datos.Lector["Precio"]);
+                    aux.Marca.Descripcion = Convert.ToString(datos.Lector["MARCAS.Descripcion"]);
+                    aux.Categoria.Descripcion = Convert.ToString(datos.Lector["CATEGORIAS.Descripcion"]);
+                   
+                    ArticulosFinal.Add(aux);
                 }
 
-                foreach (Articulo a in premiosFinal)
+                foreach (Articulo a in ArticulosFinal)
                 {
-                    List<Imagen> listaimagenesPremio = imagenPremio.listarPorIdArticulo(a.Id);
-                    a.Imagenes = listaimagenesPremio;
+                    List<Imagen> listaimagenesArticulos = imagenArticulos.listarPorIdArticulo(a.Id);
+                    a.Imagenes = listaimagenesArticulos;
                    
                 }
 
-                return premiosFinal;
+                return ArticulosFinal;
 
             }
             catch (Exception ex)
@@ -59,20 +113,22 @@ namespace Negocio
                 datos.cerrarConexion();
             } 
         }
-        public List<Articulo> listar()
+        public Articulo listarXid (int ArticuloID)
         {
-            List<Articulo> lista = new List<Articulo>();
+          
             AccesoDatos accesoDatos = new AccesoDatos();
             ImagenService imagenService = new ImagenService();
+            List <Imagen>  lista = new List<Imagen>();
 
             try
             {
-                accesoDatos.setearConsulta("SELECT A.Id, Codigo, Nombre, A.Descripcion, A.IdMarca, A.IdCategoria, M.Descripcion Nombre_Marca,C.Descripcion Nombre_Categoria, M.Id Id_Marca, C.Id Id_Categoria, A.Precio FROM ARTICULOS A JOIN CATEGORIAS C ON A.IdCategoria = C.Id JOIN MARCAS M ON A.IdMarca = M.Id ORDER BY A.Id ASC");
+                accesoDatos.setearConsulta("SELECT A.Id, Codigo, Nombre, A.Descripcion, A.IdMarca, A.IdCategoria, M.Descripcion Nombre_Marca,C.Descripcion Nombre_Categoria, M.Id Id_Marca, C.Id Id_Categoria, A.Precio FROM ARTICULOS A JOIN CATEGORIAS C ON A.IdCategoria = C.Id JOIN MARCAS M ON A.IdMarca = M.Id WHERE A.id=@idArticulo");
+                accesoDatos.setearParametro("@idArticulo",ArticuloID);
                 accesoDatos.ejecutarLectura();
-
+                Articulo articulo = new Articulo();
                 while (accesoDatos.Lector.Read())
                 {
-                    Articulo articulo = new Articulo();
+                    
 
                     articulo.Id = (int)accesoDatos.Lector["Id"];
                     articulo.CodigoArticulo = (string)accesoDatos.Lector["Codigo"];
@@ -91,15 +147,15 @@ namespace Negocio
 
                     articulo.Precio = (decimal)accesoDatos.Lector["Precio"];
 
-                    lista.Add(articulo);
+                    
                 }
 
                 foreach (var a in lista)
                 {
-                    List<Imagen> imagens = imagenService.listarPorIdArticulo(a.Id);
-                    a.Imagenes = imagens;
+                    List<Imagen> imagenes = imagenService.listarPorIdArticulo(articulo.Id);
+                    articulo.Imagenes = imagenes;
                 }
-                return lista;
+                return articulo ;
             }
             catch (Exception ex)
             {

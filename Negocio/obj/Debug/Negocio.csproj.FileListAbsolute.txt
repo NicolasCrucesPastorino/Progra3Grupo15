@@ -34,3 +34,12 @@ C:\Users\Nico\Downloads\aspNetDomingoConAgus\Progra3Grupo15\Negocio\obj\Debug\Ne
 C:\Users\Nico\Downloads\aspNetDomingoConAgus\Progra3Grupo15\Negocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Users\Nico\Downloads\aspNetDomingoConAgus\Progra3Grupo15\Negocio\obj\Debug\Negocio.dll
 C:\Users\Nico\Downloads\aspNetDomingoConAgus\Progra3Grupo15\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Nico\Downloads\AspNetTrabajoFinalViernesAgus11\Progra3Grupo15\Negocio\bin\Debug\Negocio.dll
+C:\Users\Nico\Downloads\AspNetTrabajoFinalViernesAgus11\Progra3Grupo15\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Nico\Downloads\AspNetTrabajoFinalViernesAgus11\Progra3Grupo15\Negocio\bin\Debug\Dominio.dll
+C:\Users\Nico\Downloads\AspNetTrabajoFinalViernesAgus11\Progra3Grupo15\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Nico\Downloads\AspNetTrabajoFinalViernesAgus11\Progra3Grupo15\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Nico\Downloads\AspNetTrabajoFinalViernesAgus11\Progra3Grupo15\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Downloads\AspNetTrabajoFinalViernesAgus11\Progra3Grupo15\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\Nico\Downloads\AspNetTrabajoFinalViernesAgus11\Progra3Grupo15\Negocio\obj\Debug\Negocio.dll
+C:\Users\Nico\Downloads\AspNetTrabajoFinalViernesAgus11\Progra3Grupo15\Negocio\obj\Debug\Negocio.pdb

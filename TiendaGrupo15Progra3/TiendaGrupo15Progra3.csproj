@@ -84,7 +84,7 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Default.aspx" />
-    <Content Include="ElijeTuPremio.aspx" />
+    <Content Include="ElegirProducto.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\StyleSheet1.css" />
     <Content Include="IngresaTusDatos.aspx" />
@@ -97,6 +97,7 @@
     <Content Include="UsuarioRegistrado.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="Login.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -106,12 +107,12 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ElijeTuPremio.aspx.cs">
-      <DependentUpon>ElijeTuPremio.aspx</DependentUpon>
+    <Compile Include="ElegirProducto.aspx.cs">
+      <DependentUpon>ElegirProducto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ElijeTuPremio.aspx.designer.cs">
-      <DependentUpon>ElijeTuPremio.aspx</DependentUpon>
+    <Compile Include="ElegirProducto.aspx.designer.cs">
+      <DependentUpon>ElegirProducto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -144,6 +145,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

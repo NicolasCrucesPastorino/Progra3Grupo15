@@ -11,52 +11,52 @@ namespace TiendaGrupo15Progra3
 {
 
 
-    public partial class Site1
+    public partial class WebForm2
     {
 
         /// <summary>
-        /// head control.
+        /// LoginLabelUsuario control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Label LoginLabelUsuario;
 
         /// <summary>
-        /// form1 control.
+        /// LoginTextUsuario control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox LoginTextUsuario;
 
         /// <summary>
-        /// ContentPlaceHolder2 control.
+        /// LoginLabelContrasenia control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder2;
+        protected global::System.Web.UI.WebControls.Label LoginLabelContrasenia;
 
         /// <summary>
-        /// ContentPlaceHolder3 control.
+        /// LoginTextContrasenia control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder3;
+        protected global::System.Web.UI.WebControls.TextBox LoginTextContrasenia;
 
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// LoginButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.Button LoginButton;
     }
 }
